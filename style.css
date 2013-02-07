@@ -1,0 +1,56 @@
+*                       { margin: 0; padding: 0; }
+@font-face              { font-family: Daxline; src: url(fonts/DaxlinePro-Thin.otf); }
+body                    { background: url(images/back_layout_01.jpg) no-repeat fixed center top; font-family: Daxline;
+                        color: #FFFFFF;}
+a                       { text-decoration: none; }
+
+#header                 { margin: 0 auto; width: 910px; padding: 10px 0 25px 30px; }
+#header #title p        { font-size: 70px; margin-bottom: -40px; }
+#header #we             { float: right; text-align: right; color: #CACACA; font-size: 22px; margin-top: -35px;
+                        padding: 0 40px 0 0;}
+#header #we p           { margin-bottom: -10px; }
+
+#wrapper                { margin: 0 auto; width: 910px; background: url(images/white_fon.png) repeat scroll 0 0 transparent; }
+#menu                   { border-top: 10px solid #456F6D; background-color: #CACACA; clear: both; }
+#menu ul                { padding: 10px 0; }
+#menu li                { list-style: none; display: inline; font-size: 30px; margin: 0 -5px 0 2px; padding: 8px 70px;
+                        background-color: #233C3B;}
+#menu li#less           { padding-right: 65px; }
+#menu li:hover          { background-color: #CACACA; }
+#menu ul a              { color: #8D8D8D; }
+
+#main                   { clear: both; }
+#main p                 { width: 250px; padding-left: 30px; float: left; position: relative; font-size: 30px;
+                        font-weight: bold; padding-top: 80px;}
+#main #main_video       { width: 550px; margin: 35px 35px 25px 35px; float: right; position: relative; }
+#main_video iframe      { height: 309px; width: 550px; border: none; position: absolute; z-index:-1; }
+#main_video .play       { height: 174px; width: 540px; padding-top: 125px; visibility:hidden;
+                        background: url(images/fon.png) repeat scroll 0 0 transparent; position: absolute; z-index: 2;
+                        text-align: center; font-size: 50px; color: #55B3A5; border: 5px solid #55B3A5; font-weight: bold;
+                        text-shadow: 1px 2px 2px black; }
+#main .play p  		      { bottom: 25px; font-size: 16px; width: 510px; }
+#main_video img 	       {height: 309px; width: 550px; z-index:1; box-shadow: 0 0 10px 5px #456F6D;}
+#main_video a:hover > .play         {visibility:visible;}
+#main #social_networks              { text-align: right; clear: both; margin-bottom: -40px; }
+#main #social_networks img          { padding-right: 10px; }
+#main #social_networks img:hover    { opacity: 0.65; }
+
+#videos                 { clear: both; padding: 0 5px; }
+#videos .works          { float: left; width: 450px; height: 253px; position: relative; }
+#videos .works iframe	  { height: 253px; width: 450px; border: none; position: absolute; z-index: -1;}
+.works .play	          { height: 143px; width: 440px; padding-top: 100px; visibility:hidden;
+                        background: url(images/fon.png) repeat scroll 0 0 transparent; position: absolute; z-index: 2;
+                        text-align: center; font-size: 50px; color: #55B3A5; border: 5px solid #55B3A5; font-weight: bold;
+                        text-shadow: 1px 2px 2px black; }
+.works .play p	        { padding-top: 45px; font-size: 16px; width: 440px; }
+.works img            	{ height: 253px; width: 450px; z-index:1; }
+.works a:hover > .play	{ visibility:visible; }
+
+#clients,
+#contacts               { clear: both; }
+#clients img            { padding: 15px; }
+#clients p.title img    { margin: 0px; }
+#contacts p             { padding: 40px; }
+
+p.title                 { font-size: 40px; padding: 25px 0 0 15px !important; }
+#videos p.title         { padding-top: 0 !important; }
