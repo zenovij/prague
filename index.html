@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Prague Camera</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+<div id="header">
+    <span id="title">
+        <p>Prague</p>
+        <p>Camera</p>
+    </span>
+    <span id="we">
+        <p>info@praguecamera.cz</p>
+        <p>+420 773 475 354</p>
+    </span>
+</div>
+<div id="wrapper">
+    <div id="menu">
+        <ul>
+            <a href="#menu_videos"><li>Videos</li></a>
+            <a href="#menu_clients"><li>Clients</li></a>
+            <a href="#menu_contacts"><li id="less">Contacts</li></a>
+            <a href="#" target="_blank"><li>Blog</li></a>
+        </ul>
+    </div>
+    <div id="main">
+        <p>
+            Some sort of text will be here, but I have no idea what it will say just yet
+        </p>
+        <div id="main_video">
+            <a href='http://player.vimeo.com/video/57448899?title=0&amp;portrait=0&amp;autoplay=1' target=aaaaa>
+                <iframe name=aaaaa ></iframe>
+                <div class="play">Click to play
+                    <p>Kieran D'Arcy Showreel. January 2013</p>
+                </div>
+                <img src="images/top_video.jpg">
+            </a>
+        </div>
+        <div id="social_networks">
+            <a href="skype:kfdpraha?call" target="_blank"><img src="images/skype.png"></a>
+            <a href="http://vimeo.com/praguecamera" target="_blank"><img src="images/vimeo.png"></a>
+            <a href="https://www.facebook.com/praguecamera" target="_blank"><img src="images/facebook.png"></a>
+            <a href="http://www.linkedin.com/pub/kieran-d-arcy/23/985/62" target="_blank"><img src="images/linkedin.png"></a>
+            <a href="http://www.flickr.com/photos/31058835@N08/" target="_blank"><img src="images/flickr.png"></a>
+        </div>
+    </div>
+    <div id="videos">
+        <p class="title"><a name="menu_videos"></a>Videos</p>
+        <div class="works first">
+            <a href='http://player.vimeo.com/video/32439790?title=0&amp;portrait=0&amp;autoplay=1' target=work_first >
+                <iframe name=work_first ></iframe>
+                <div class="play">Click to play
+                    <p>Expats.cz 10th Anniversary party</p>
+                </div><img src="images/expats.png">
+            </a>
+        </div>
+        <div class="works second">
+            <a href='http://player.vimeo.com/video/34744469?title=0&amp;portrait=0&amp;autoplay=1' target=work_second >
+                <iframe name=work_second ></iframe>
+                <div class="play">Click to play
+                    <p>Prague Walk</p>
+                </div><img src="images/prague_walk.png">
+            </a>
+        </div>
+        <div class="works third">
+            <a href='http://player.vimeo.com/video/31133593?title=0&amp;portrait=0&amp;autoplay=1' target=work_third >
+                <iframe name=work_third ></iframe>
+                <div class="play">Click to play
+                    <p>Vitkov National Monument</p>
+                </div><img src="images/vitkov.png">
+            </a>
+        </div>
+        <div class="works fourth">
+            <a href='http://player.vimeo.com/video/33295288?title=0&amp;portrait=0&amp;autoplay=1' target=work_fourth >
+                <iframe name=work_fourth ></iframe>
+                <div class="play">Click to play
+                    <p>EITI</p>
+                </div><img src="images/eiti.png">
+            </a>
+        </div>
+    </div>
+    <div id="clients">
+        <p class="title"><a name="menu_clients"></a>Clients</p>
+        <img src="images/clients.png">
+    </div>
+    <div id="contacts">
+        <p class="title"><a name="menu_contacts"></a>Contacts</p>
+        <p>For references or information on prices, availability, and equipment, please email <a href="emailto:info@praguecamera.cz">info@praguecamera.cz</a><br>
+            or phone Kieran on +420 773 475 354.</p>
+    </div>
+</div>
+<script>
+    $("#main_video a").click(function () {
+        $("#main_video iframe").css('z-index', '0');
+        $("#main_video .play").css('visibility', 'hidden');
+    });
+    $(".works.first a").click(function () {
+        $(".works.first iframe").css('z-index', '0');
+        $(".works.first .play").css('visibility', 'hidden');
+    });
+    $(".works.second a").click(function () {
+        $(".works.second iframe").css('z-index', '0');
+        $(".works.second .play").css('visibility', 'hidden');
+    });
+    $(".works.third a").click(function () {
+        $(".works.third iframe").css('z-index', '0');
+        $(".works.third .play").css('visibility', 'hidden');
+    });
+    $(".works.fourth a").click(function () {
+        $(".works.fourth iframe").css('z-index', '0');
+        $(".works.fourth .play").css('visibility', 'hidden');
+    });
+</script>
+</body>
+</html>
